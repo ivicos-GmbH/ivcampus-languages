@@ -1,0 +1,47 @@
+{
+  "invSubject": "Sie wurden zum CAMPUS eingeladen",
+  "invTitle1": "Sie werden zum Campus von ",
+  "invTitle2": " eingeladen mit ihrer Email-Adresse ",
+  "newUserInvOrgName": "Hallo! Sie erhalten Zugang zum CAMPUS von",
+  "newUserInvClick": "Klicken Sie einfach auf die Schaltfläche, um Ihre Reise in die hybride Arbeitswelt zu starten",
+  "newUserInvStart": "START",
+
+  "registeredUserInvOrgNamePart1": "Hallo",
+  "registeredUserInvOrgNamePart2": "Sie erhalten Zugang zum CAMPUS von",
+  "registeredUserInvClick": "Klicken Sie bitte auf die Schaltfläche, melden Sie sich an und akzeptieren Sie die Einladung",
+
+  "userLoginSubject": "Magic-Link zur Anmeldung",
+  "userLoginTitle": "ANMELDUNG",
+  "userLoginEmail": "Hallo ",
+  "userLoginClick": "Klicken Sie bitte auf die folgende Schaltfläche, um CAMPUS zu betreten",
+
+  "userSignUpSubject": "Link zur Registrierung",
+  "userSignUpTitle": "REGISTRIERUNG",
+  "userSignUpCongrats": "Wunderbar! Sie sind dabei sich bei CAMPUS zu registrieren",
+  "userSignUpClick": "Klicken Sie bitte auf die folgende Schaltfläche, um den Registrierungsprozess abzuschließen,",
+  "TermsOfService1": "Wenn Sie auf ",
+  "TermsOfService2": "REGISTRIERUNG",
+  "TermsOfService3": " klicken, erklären Sie sich mit unseren",
+  "TermsOfService4": "Nutzungsbedingungen",
+  "TermsOfService5": " einverstanden",
+  "userCopyUrl": "oder kopieren Sie den Link und fügen Sie sie ihn in eine neue Registerkarte Ihres Internet-Browsers ein",
+
+  "userOnboardSubject": "Onboarding-Leitfaden nach erfolgreicher Anmeldung bei CAMPUS",
+  "userOnboardTitle": "Willkommen",
+  "userOnboardEmailPart1": "Danke für Ihrer Registrierung",
+  "userOnboardEmailPart2": "bei",
+  "userOnboardEmailPart3": "CAMPUS",
+  "userOnboardRefer": "Hiermit senden wir Ihnen noch rasch den Link zu unserer",
+  "userOnboardGuide": "Schnellstart-Anleitung",
+  "userOnboardSteps": "Sie informiert über die wichtigsten Funktionen und hilft beim Verständnis, was wichtige Unterschiede gegenüber anderen Lösungen sind",
+
+  "logIn": "ANMELDUNG",
+  "signUp": "REGISTRIERUNG",
+  "contactSupportLogIn": "Wenn Sie Probleme bei der Anmeldung haben, wenden Sie sich bitte an den ivicos Support",
+  "contactSupportSignUp": "Wenn Sie Probleme bei der Registrierung haben, wenden Sie sich bitte an den ivicos Support",
+  "contactSupportHere": "hier",
+  "privacyPolicyPart1": "Wir respektieren Ihre Privatsphäre und werden Ihre Daten nicht an Dritte für Marketing- oder andere Zwecke weitergeben. Für weitere Informationen lesen Sie bitte unsere",
+  "privacyPolicyPart2": "Datenschutzbestimmungen",
+  "director": "Geschäftsführer",
+  "tax": "Registriert unter"
+}

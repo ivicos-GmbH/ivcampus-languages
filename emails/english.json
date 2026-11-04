@@ -1,0 +1,47 @@
+{
+  "invSubject": "You have an invitation to CAMPUS",
+  "invTitle1": "You've been invited to Campus by ",
+  "invTitle2": " with your email address ",
+  "newUserInvOrgName": "Hello! You've been invited to join",
+  "newUserInvClick": "Simply click on the button below to start your journey into hybrid work",
+  "newUserInvStart": "START",
+
+  "registeredUserInvOrgNamePart1": "Hello",
+  "registeredUserInvOrgNamePart2": "You've been invited to join",
+  "registeredUserInvClick": "Simply click on the button below to log in and view the invitation",
+
+  "userLoginSubject": "Access link to sign in",
+  "userLoginTitle": "USER LOGIN",
+  "userLoginEmail": "Hello ",
+  "userLoginClick": "To complete the login process, please click the button below",
+
+  "userSignUpSubject": "Access link to sign up",
+  "userSignUpTitle": "USER SIGN-UP",
+  "userSignUpCongrats": "Congratulations! You are about to sign up to CAMPUS",
+  "userSignUpClick": "To complete the registration process, please click the button below,",
+  "TermsOfService1": "By clicking ",
+  "TermsOfService2": "SIGN UP,",
+  "TermsOfService3": " you agree to our ",
+  "TermsOfService4": "Terms of Service",
+  "TermsOfService5": "",
+  "userCopyUrl": "or copy and paste this URL into a new tab of your browser",
+
+  "userOnboardSubject": "Onboarding guide following sign-up to CAMPUS",
+  "userOnboardTitle": "Welcome",
+  "userOnboardEmailPart1": "Thank you for registering",
+  "userOnboardEmailPart2": "to",
+  "userOnboardEmailPart3": "CAMPUS",
+  "userOnboardRefer": "We hereby quickly send you the link to our",
+  "userOnboardGuide": "Quick-Start Guide",
+  "userOnboardSteps": "It will inform you about the most important features and will help you to understand the key differences from other solutions",
+
+  "logIn": "LOG IN",
+  "signUp": "SIGN UP",
+  "contactSupportLogIn": "If you have trouble logging in, please contact support",
+  "contactSupportSignUp": "If you are having any trouble signing up, please contact support",
+  "contactSupportHere": "here",
+  "privacyPolicyPart1": "We respect your privacy and will not use your information for third party marketing or other purposes. For more information, please see our",
+  "privacyPolicyPart2": "privacy policy",
+  "director": "Managing Director",
+  "tax": "Tax id"
+}
