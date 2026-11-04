@@ -12,8 +12,9 @@ Nothing here runs. A translation reaches the product only after a developer copi
 | `emails/` | Sign-up, sign-in, onboarding and invitation emails | `identity-provider` (`main`), `preferred_languages/` | `6c6b50cdd6` | 2026-10-27 |
 | `campus-rooms/` | Default rooms in a new campus | `campus-api` (`mongodb/main`), `src/handler/controller/campus/` | `7bc8390e96` | 2026-09-15 |
 | `open-doors/` | Access passes for visitors | `campus-open-doors-management` (`main`), `lib/` | `97b05c8b70` | 2026-05-12 |
+| `hard-coded/` | Text written directly in the code of the app, campus rooms and access passes | The same commits as above | | |
 
-Files are exact copies, so they keep their original format. English and German are the reference languages.
+Files in the first four folders are exact copies, so they keep their original format. `hard-coded/strings.json` is a list made for translators, because this text isn't in any language file yet. English and German are the reference languages. If an entry has `"de": null`, the app has no German for it yet.
 
 ## How to add a language
 
@@ -28,6 +29,7 @@ French is used as the example here.
    | `emails/` | Copy `english.json` to `french.json`, then translate |
    | `campus-rooms/` | In `campus.translation.ts`, copy the whole `en: { ... }` block, name it `fr: { ... }`, put it after `de`, then translate |
    | `open-doors/` | In `translations.ts`, copy the whole `en: { ... }` block, name it `fr: { ... }`, put it after `de`, then translate |
+   | `hard-coded/` | In `strings.json`, add a `"fr"` line to each entry, next to `"en"` and `"de"` |
 
 3. Open a pull request. Merging it means the translation is finished and ready to be collected.
 
@@ -42,6 +44,5 @@ French is used as the example here.
 
 ## What's missing
 
-- Text written directly in the application code instead of in language files. It will be added here after it has been moved into those files.
 - Text from features not yet merged into the default branches, such as `campus-alpha-client` pull request 875.
 - The OX plugin. Its language files contain only sample text from a template, and its few real strings are written directly in the code.

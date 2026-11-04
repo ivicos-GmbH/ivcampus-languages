@@ -1,0 +1,970 @@
+{
+  "_about": "Text written directly in the application code, not in its language files. Add your language as a new line in each entry, for example \"fr\": \"...\". Copied from the commits listed in README.md. \"where\" shows the place in the code, and \"de\": null means the app has no German for it yet.",
+  "client": {
+    "visitor": {
+      "en": "Visitor",
+      "de": "Besucher",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomList/helpers/userHooks/userHooks.tsx:99"
+      ]
+    },
+    "user": {
+      "en": "User",
+      "de": "Benutzer",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomList/helpers/userHooks/userHooks.tsx:99"
+      ]
+    },
+    "visitorInitial": {
+      "en": "V",
+      "de": "B",
+      "where": [
+        "campus-alpha-client:src/features/Areas/AreaSwitch/FavoriteAreas/PresencePill.tsx:45",
+        "campus-alpha-client:src/features/Areas/AreaCard/AreaCard.view.tsx:331"
+      ],
+      "note": "One letter, short for \"visitor\", shown beside a count."
+    },
+    "invited": {
+      "en": "Invited",
+      "de": "Eingeladen",
+      "where": [
+        "campus-alpha-client:src/features/Areas/AreaSwitch/CrossAreaDirectMessaging/DirectMessaging/Actions/Actions.tsx:49"
+      ]
+    },
+    "allHosts": {
+      "en": "all hosts",
+      "de": "alle Hosts",
+      "where": [
+        "campus-alpha-client:src/routes/HostPerspectiveWaitingArea/RoomSelectionDialog/WaitingAreaMemoComposer/WaitingAreaMemoComposer.view.tsx:44"
+      ],
+      "note": "Follows \"send memo to\" in a dialog title."
+    },
+    "campusAccess": {
+      "en": "Access to the Campus {campusName}",
+      "de": "Zugang zum Campus {campusName}",
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/ExternalDoors/LinkEvaluation.tsx:127"
+      ]
+    },
+    "stepCounter": {
+      "en": "{current} of {total} Steps",
+      "de": "{current} von {total} Schritte",
+      "where": [
+        "campus-alpha-client:src/routes/TestWebRTC/WebRTCDiagnostics.tsx:101"
+      ]
+    },
+    "warningBrowsers": {
+      "en": "browsers",
+      "de": "Browser",
+      "where": [
+        "campus-alpha-client:src/components/WarningNotSupportedBrowser/WarningNotSupportedBrowser.tsx:95"
+      ],
+      "note": "Part of a longer sentence: the text around it is in the normal language files."
+    },
+    "warningOperatingSystems": {
+      "en": "operating systems",
+      "de": "Betriebssysteme",
+      "where": [
+        "campus-alpha-client:src/components/WarningNotSupportedBrowser/WarningNotSupportedBrowser.tsx:97"
+      ],
+      "note": "Part of a longer sentence: the text around it is in the normal language files."
+    },
+    "warningDesktop": {
+      "en": "desktop",
+      "de": "Desktop-",
+      "where": [
+        "campus-alpha-client:src/components/WarningNotSupportedBrowser/WarningNotSupportedBrowser.tsx:102"
+      ],
+      "note": "Part of a longer sentence: the text around it is in the normal language files."
+    },
+    "warningIos": {
+      "en": "iOS",
+      "de": "iOS-",
+      "where": [
+        "campus-alpha-client:src/components/WarningNotSupportedBrowser/WarningNotSupportedBrowser.tsx:104"
+      ],
+      "note": "Part of a longer sentence: the text around it is in the normal language files."
+    },
+    "datePickerMonths": {
+      "en": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "de": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ],
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:4"
+      ],
+      "note": "Keep the order. English comes from the Fluent UI library."
+    },
+    "datePickerShortMonths": {
+      "en": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "de": [
+        "Jan",
+        "Feb",
+        "Mär",
+        "Apr",
+        "Mai",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Okt",
+        "Nov",
+        "Dez"
+      ],
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:5"
+      ],
+      "note": "Keep the order. English comes from the Fluent UI library."
+    },
+    "datePickerDays": {
+      "en": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "de": [
+        "Sonntag",
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag",
+        "Freitag",
+        "Samstag"
+      ],
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:6"
+      ],
+      "note": "Keep the order, starting on Sunday. English comes from the Fluent UI library."
+    },
+    "datePickerShortDays": {
+      "en": [
+        "S",
+        "M",
+        "T",
+        "W",
+        "T",
+        "F",
+        "S"
+      ],
+      "de": [
+        "So",
+        "Mo",
+        "Di",
+        "Mi",
+        "Do",
+        "Fr",
+        "Sa"
+      ],
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:7"
+      ],
+      "note": "Keep the order, starting on Sunday. English comes from the Fluent UI library."
+    },
+    "datePickerToday": {
+      "en": "Go to today",
+      "de": "Heute",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:8"
+      ]
+    },
+    "datePickerPrevMonth": {
+      "en": "Go to previous month",
+      "de": "Vorheriger Monat",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:9"
+      ]
+    },
+    "datePickerNextMonth": {
+      "en": "Go to next month",
+      "de": "Nächster Monat",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:10"
+      ]
+    },
+    "datePickerPrevYear": {
+      "en": "Go to previous year",
+      "de": "Vorheriges Jahr",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:11"
+      ]
+    },
+    "datePickerNextYear": {
+      "en": "Go to next year",
+      "de": "Nächstes Jahr",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:12"
+      ]
+    },
+    "datePickerClose": {
+      "en": "Close date picker",
+      "de": "Schließen",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:13"
+      ]
+    },
+    "datePickerRequired": {
+      "en": "Field is required",
+      "de": "Dieses Feld ist erforderlich.",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:14"
+      ]
+    },
+    "datePickerInvalid": {
+      "en": "Invalid date format",
+      "de": "Ungültiges Datumsformat.",
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalDashboard/shared/datePickerUtils.ts:15"
+      ]
+    },
+    "samlErrorTitle": {
+      "en": "SAML authentication error",
+      "de": "SAML-Authentifizierungsfehler",
+      "where": [
+        "campus-alpha-client:src/routes/SamlAuth/SamlAuthError.tsx:37"
+      ],
+      "note": "English drafted for this file: the code only has German."
+    },
+    "samlErrorMessage": {
+      "en": "An error occurred during SAML authentication. Please try again or contact your administrator.",
+      "de": "Es ist ein Fehler bei der SAML-Authentifizierung aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an Ihren Administrator.",
+      "where": [
+        "campus-alpha-client:src/routes/SamlAuth/SamlAuthError.tsx:40"
+      ],
+      "note": "English drafted for this file: the code only has German."
+    },
+    "samlErrorBack": {
+      "en": "Back to the login page",
+      "de": "Zurück zur Login-Seite",
+      "where": [
+        "campus-alpha-client:src/routes/SamlAuth/SamlAuthError.tsx:43"
+      ],
+      "note": "English drafted for this file: the code only has German."
+    },
+    "samlEnablePopups": {
+      "en": "Please enable popups for this site",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/SamlAuth/SamlAuth.tsx:125"
+      ]
+    },
+    "samlProcessing": {
+      "en": "Processing authentication...",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/SamlAuth/SamlAuthCalback.tsx:43"
+      ]
+    },
+    "leaveAreaConfirm": {
+      "en": "Are you sure you want to leave this area?",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Areas/AreaSwitch/AreaSwitch.state.tsx:69"
+      ]
+    },
+    "leaveArea": {
+      "en": "Leave area",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/comps/RoomCall/CallActionBar/Children/LeaveAreaButton.tsx:29"
+      ]
+    },
+    "lobby": {
+      "en": "Lobby",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Header/children/LowerTopbar/LowerTopBar.view.tsx:226",
+        "campus-alpha-client:src/features/Header/children/LowerTopbar/LowerTopBar.view.tsx:244"
+      ]
+    },
+    "callOpenChat": {
+      "en": "Open Chat",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:186",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:322",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:495"
+      ],
+      "note": "Call controls."
+    },
+    "callToggleTldraw": {
+      "en": "Toggle Tldraw",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:217",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:388"
+      ],
+      "note": "Call controls. Tldraw is a product name."
+    },
+    "callToggleEtherpad": {
+      "en": "Toggle Etherpad",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:224",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:395"
+      ],
+      "note": "Call controls. Etherpad is a product name."
+    },
+    "callToggleCollaboard": {
+      "en": "Toggle Collaboard",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:231",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:402"
+      ],
+      "note": "Call controls. Collaboard is a product name."
+    },
+    "callToggleConceptboard": {
+      "en": "Toggle Conceptboard",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:238",
+        "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:409"
+      ],
+      "note": "Call controls. Conceptboard is a product name."
+    },
+    "callSettings": {
+      "en": "Settings",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/comps/RoomCall/CallActionBar/CallActionBar.state.tsx:80"
+      ]
+    },
+    "videoCall": {
+      "en": "Video call",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/comps/RoomCall/CallActionBar/components/RoomHeader.tsx:198"
+      ],
+      "note": "Shown when a room has no name."
+    },
+    "authenticating": {
+      "en": "Authenticating...",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/RoomView.view.tsx:88"
+      ]
+    },
+    "takeVisitorInside": {
+      "en": "Take your visitor inside...",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Visitors/VisitorRoomSelector/index.tsx:82"
+      ]
+    },
+    "selectRoomForVisitor": {
+      "en": "Select a room to take them into",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Visitors/VisitorRoomSelector/index.tsx:83"
+      ]
+    },
+    "letThemIn": {
+      "en": "Let them In",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/HostPerspectiveWaitingArea/RoomSelectionDialog/RoomSelectionDialog.state.tsx:53",
+        "campus-alpha-client:src/routes/HostPerspectiveWaitingArea/RoomSelectionDialog/RoomSelectionDialog.state.tsx:195"
+      ],
+      "note": "Button that admits a visitor."
+    },
+    "errorShort": {
+      "en": "Error :(",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Visitors/VisitorRoomSelector/index.tsx:61",
+        "campus-alpha-client:src/routes/HostPerspectiveWaitingArea/RoomSelectionDialog/RoomSelectionDialog.state.tsx:176",
+        "campus-alpha-client:src/routes/HostPerspectiveWaitingArea/RoomSelectionDialog/RoomSelectionDialog.state.tsx:199"
+      ],
+      "note": "Replaces a button label when something fails."
+    },
+    "userAlreadyExists": {
+      "en": "User already exists",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Members/children/Dialogs.tsx:98"
+      ]
+    },
+    "missingRole": {
+      "en": "Missing role assignment",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Members/children/Dialogs.tsx:112"
+      ]
+    },
+    "close": {
+      "en": "Close",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Members/children/Dialogs.tsx:308"
+      ]
+    },
+    "ok": {
+      "en": "Ok",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/Core/Core.view.tsx:57"
+      ]
+    },
+    "typeAnythingHere": {
+      "en": "Type anything here",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Header/children/CreateInvitationPanel/CreateInvitationPanel.view.tsx:263",
+        "campus-alpha-client:src/features/Header/children/CreateInvitationPanel/CustomUrlModal.tsx:55"
+      ]
+    },
+    "changeLog": {
+      "en": "Change log",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/ChangeLog/ChangeLog.view.tsx:31"
+      ]
+    },
+    "microsoftSignedInAs": {
+      "en": "Signed in as {name}.",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/kits/msKit.tsx:234"
+      ]
+    },
+    "microsoftError": {
+      "en": "Error has occured",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/kits/msKit.tsx:242"
+      ],
+      "note": "The English has a typo (\"occured\"). Translate the meaning."
+    },
+    "campusVisitor": {
+      "en": "Campus Visitor",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/LandingPage/LandingPageSideCardDesktop.view.tsx:170",
+        "campus-alpha-client:src/routes/LandingPage/LandingPageSideCardMobile.view.tsx:213",
+        "campus-alpha-client:src/routes/LandingPage/LandingPage.state.tsx:192",
+        "campus-alpha-client:src/routes/VisitorsEntry/VisitorsEntry.state.tsx:43",
+        "campus-alpha-client:src/routes/VisitorsEntry/VisitorsEntry.state.tsx:60"
+      ],
+      "note": "Default name for a visitor who gives none."
+    },
+    "loadingLandingPage": {
+      "en": "Loading landing page...",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/LandingPage/LandingPage.tsx:14"
+      ]
+    },
+    "inArea": {
+      "en": "In {areaName}",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Areas/AreaSwitch/CrossAreaDirectMessaging/DirectMessaging/AreaSegment.tsx:296"
+      ],
+      "note": "Shows which area a person is in."
+    },
+    "maxCharacters": {
+      "en": "Maximum {maxChars} characters.",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomList/UserFace/UserSelfStatus/OutOfOfficeModal.tsx:549"
+      ]
+    },
+    "errorPageTitle": {
+      "en": "Error",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/App.tsx:326"
+      ]
+    },
+    "screenshots": {
+      "en": "Screenshots",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/TestWebRTC/WebRTCDiagnostics.tsx:20"
+      ]
+    },
+    "screenshotNumber": {
+      "en": "Screenshot {number}",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/TestWebRTC/utils/generatePDF.ts:321"
+      ],
+      "note": "In the diagnostics PDF."
+    },
+    "screenshotError": {
+      "en": "Error loading screenshot {number}",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/routes/TestWebRTC/utils/generatePDF.ts:337"
+      ],
+      "note": "In the diagnostics PDF."
+    },
+    "fileTooLarge": {
+      "en": "File too large",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalMeetingCorner/components/Widgets/ImageUpload/ImageUpload.state.tsx:112"
+      ]
+    },
+    "noResults": {
+      "en": "No results found",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalMeetingCorner/components/Widgets/Book/Book.state.tsx:61"
+      ]
+    },
+    "quoteFailed": {
+      "en": "Failed to generate quote. Please try again.",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalMeetingCorner/components/Widgets/Quote/Quote.state.tsx:42"
+      ]
+    },
+    "quoteRequired": {
+      "en": "Quote is required",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalMeetingCorner/components/Widgets/Quote/Quote.view.tsx:121"
+      ]
+    },
+    "authorRequired": {
+      "en": "Author is required",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/PersonalMeetingCorner/components/Widgets/Quote/Quote.view.tsx:129"
+      ]
+    },
+    "backgroundAegeanSea": {
+      "en": "Aegean Sea",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:13"
+      ],
+      "note": "Name of a dashboard background."
+    },
+    "backgroundEuropeanSquare": {
+      "en": "European Square",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:14"
+      ],
+      "note": "Name of a dashboard background."
+    },
+    "backgroundTimberTown": {
+      "en": "Timber Town",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:15"
+      ],
+      "note": "Name of a dashboard background."
+    },
+    "backgroundRollingHills": {
+      "en": "Rolling Hills",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:16"
+      ],
+      "note": "Name of a dashboard background."
+    },
+    "previewRoadmap": {
+      "en": "Q2 roadmap...",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:70"
+      ],
+      "note": "Sample email subject in a settings preview."
+    },
+    "fellowTeamMember": {
+      "en": "Fellow team member",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/config/jitsi.ts:99",
+        "campus-alpha-client:src/routes/Mobile/Mobile.view.tsx:51"
+      ],
+      "note": "Default name for another person in a call."
+    },
+    "me": {
+      "en": "me",
+      "de": null,
+      "where": [
+        "campus-alpha-client:src/features/Rooms/RoomView/config/jitsi.ts:100"
+      ],
+      "note": "Default name for yourself in a call."
+    }
+  },
+  "open-doors": {
+    "stepAccessName": {
+      "en": "Step (1) Access Name",
+      "de": "(1) Zugangsname",
+      "where": [
+        "campus-open-doors-management:app/page.tsx:623"
+      ]
+    },
+    "stepSecurityLevel": {
+      "en": "Step (3) Security Level",
+      "de": "(3) Sicherheitsgrad",
+      "where": [
+        "campus-open-doors-management:app/page.tsx:672"
+      ]
+    },
+    "stepAccessMode": {
+      "en": "Step (4) Access Mode",
+      "de": "(4) Zugangsart",
+      "where": [
+        "campus-open-doors-management:app/page.tsx:712"
+      ]
+    },
+    "stepAccessDates": {
+      "en": "Optional step (5) Access dates and times",
+      "de": "Optional (5) Zugangsdaten und -zeiten",
+      "where": [
+        "campus-open-doors-management:app/page.tsx:749"
+      ]
+    },
+    "showCalendarDescription": {
+      "en": "Show externals a monthly overview of opening hours and bank holidays when the user wants to enter but the office is closed.",
+      "de": "Zeigen Sie Externen eine monatliche Übersicht über Öffnungszeiten und Feiertage, wenn der Benutzer eintreten möchte, das Büro jedoch geschlossen ist.",
+      "where": [
+        "campus-open-doors-management:app/page.tsx:758"
+      ]
+    },
+    "calendarOverview": {
+      "en": "Overview of the accesses to this Campus",
+      "de": "Übersicht über die Zugänge zu diesem Campus",
+      "where": [
+        "campus-open-doors-management:app/calendar/page.tsx:205"
+      ]
+    },
+    "comingSoon": {
+      "en": "Coming soon",
+      "de": "Kommt bald",
+      "where": [
+        "campus-open-doors-management:components/access-pass/access-mode-section.tsx:235",
+        "campus-open-doors-management:components/access-pass/security-level-section.tsx:75",
+        "campus-open-doors-management:components/modals/holidays-modal.tsx:140"
+      ]
+    },
+    "protectedUrl": {
+      "en": "Protected URL (non-editable):",
+      "de": "Geschützte URL (nicht bearbeitbar):",
+      "where": [
+        "campus-open-doors-management:components/modals/access-pass-link-modal.tsx:409"
+      ]
+    },
+    "editHtmlHint": {
+      "en": "Edit the HTML code above to customize the button appearance. The href URL is protected and will be automatically preserved.",
+      "de": "Bearbeiten Sie den HTML-Code oben, um das Erscheinungsbild der Schaltfläche anzupassen. Die href-URL ist geschützt und wird automatisch beibehalten.",
+      "where": [
+        "campus-open-doors-management:components/modals/access-pass-link-modal.tsx:422"
+      ]
+    },
+    "calendarClosed": {
+      "en": "Closed",
+      "de": "Geschlossen",
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:334",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:336",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:377",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:382",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:394",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:473"
+      ]
+    },
+    "calendarTitle": {
+      "en": "Opening hours for this access pass",
+      "de": "Öffnungszeiten für diesen Zugangspass",
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:428",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:443"
+      ]
+    },
+    "calendarOpen": {
+      "en": "Open",
+      "de": "Geöffnet",
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:461"
+      ]
+    },
+    "calendarHoliday": {
+      "en": "Holiday",
+      "de": "Feiertag",
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:465"
+      ]
+    },
+    "calendarHalfDay": {
+      "en": "Half-day",
+      "de": "Halbtags",
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:469"
+      ]
+    },
+    "calendarMonths": {
+      "en": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "de": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ],
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:200",
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:215"
+      ],
+      "note": "Keep the order."
+    },
+    "calendarWeekdays": {
+      "en": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "de": [
+        "Mo",
+        "Di",
+        "Mi",
+        "Do",
+        "Fr",
+        "Sa",
+        "So"
+      ],
+      "where": [
+        "campus-open-doors-management:components/opening-hours-calendar.tsx:232"
+      ],
+      "note": "Keep the order, starting on Monday."
+    },
+    "welcomeMessage": {
+      "en": "Welcome to ivicos. You will be picked up shortly.",
+      "de": "Herzlich willkommen bei ivicos. Sie werden gleich abgeholt.",
+      "where": [
+        "campus-open-doors-management:hooks/use-access-pass-form.ts:83"
+      ]
+    },
+    "startDatePast": {
+      "en": "Start date cannot be in the past",
+      "de": "Startdatum darf nicht in der Vergangenheit liegen",
+      "where": [
+        "campus-open-doors-management:lib/utils/date.ts:62"
+      ]
+    },
+    "endDatePast": {
+      "en": "End date cannot be in the past",
+      "de": "Enddatum darf nicht in der Vergangenheit liegen",
+      "where": [
+        "campus-open-doors-management:lib/utils/date.ts:68"
+      ]
+    },
+    "endDateTooFar": {
+      "en": "End date cannot be more than 18 months in the future",
+      "de": "Enddatum darf nicht mehr als 18 Monate in der Zukunft liegen",
+      "where": [
+        "campus-open-doors-management:lib/utils/date.ts:74"
+      ]
+    },
+    "endBeforeStart": {
+      "en": "End date must be after start date",
+      "de": "Enddatum muss nach dem Startdatum liegen",
+      "where": [
+        "campus-open-doors-management:lib/utils/date.ts:83"
+      ]
+    },
+    "slugTooShort": {
+      "en": "Slug must be at least 3 characters",
+      "de": "Slug muss mindestens 3 Zeichen lang sein",
+      "where": [
+        "campus-open-doors-management:lib/utils/slug.ts:30"
+      ],
+      "note": "A slug is the custom part of a link."
+    },
+    "slugTooLong": {
+      "en": "Slug must be less than 50 characters",
+      "de": "Slug darf maximal 50 Zeichen lang sein",
+      "where": [
+        "campus-open-doors-management:lib/utils/slug.ts:36"
+      ],
+      "note": "A slug is the custom part of a link."
+    },
+    "loading": {
+      "en": "Loading...",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:components/access-pass/access-name-section.tsx:113"
+      ]
+    },
+    "noAreas": {
+      "en": "No areas available",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:components/modals/location-modal.tsx:123"
+      ]
+    },
+    "noRooms": {
+      "en": "No rooms available for this area",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:components/modals/location-modal.tsx:156"
+      ]
+    },
+    "notSelected": {
+      "en": "Not selected",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:components/access-pass/access-mode-section.tsx:120"
+      ]
+    },
+    "holidayInvalidIcs": {
+      "en": "Invalid file: {fileName} (expected .ics file)",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:384"
+      ]
+    },
+    "holidayParseError": {
+      "en": "Error parsing {fileName}: {error}",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:393"
+      ]
+    },
+    "holidayUnknownError": {
+      "en": "Unknown error",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:393"
+      ]
+    },
+    "holidaysNotFound": {
+      "en": "No holidays found in the selected files",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:404",
+        "campus-open-doors-management:hooks/use-holidays.ts:584"
+      ]
+    },
+    "holidayIcsImportError": {
+      "en": "Error importing ICS files. Please check the file format.",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:419"
+      ]
+    },
+    "holidaySelectCsv": {
+      "en": "Please select valid .csv files",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:574"
+      ]
+    },
+    "holidayCsvImportError": {
+      "en": "Error importing CSV files. Please check the file format.",
+      "de": null,
+      "where": [
+        "campus-open-doors-management:hooks/use-holidays.ts:598"
+      ]
+    }
+  },
+  "campus-rooms": {
+    "areaYourVirtualOffice": {
+      "en": "Your virtual office",
+      "de": "Unser virtuelles Büro",
+      "where": [
+        "campus-api:src/handler/controller/area-group/area-group.controller.ts:198"
+      ]
+    },
+    "areaYourOffice": {
+      "en": "Your office",
+      "de": "Unser virtuelles Büro",
+      "where": [
+        "campus-api:src/handler/controller/campus/campus.controller.ts:143"
+      ],
+      "note": "The German is the same as \"Your virtual office\", but the English differs."
+    },
+    "areaEvents": {
+      "en": "Event Area",
+      "de": "Veranstaltungsbereich",
+      "where": [
+        "campus-api:src/handler/controller/campus/campus.controller.ts:143"
+      ]
+    },
+    "youtubeLink": {
+      "en": "Youtube Link",
+      "de": null,
+      "where": [
+        "campus-api:src/infrastructure/persistence/mongo-repository/attachment/attachment-repository.ts:180"
+      ]
+    },
+    "ticTacToe": {
+      "en": "Tic Tac Toe",
+      "de": null,
+      "where": [
+        "campus-api:src/infrastructure/persistence/mongo-repository/attachment/attachment-repository.ts:205"
+      ]
+    }
+  }
+}
