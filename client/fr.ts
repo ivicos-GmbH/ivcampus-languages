@@ -197,7 +197,7 @@ export const fr = {
     oooModalCancel: 'Annuler',
     oooModalCloseAriaLabel: 'Fermer',
     cameraSettingErrorMessage:
-        'Une erreur s’est produite lors de la configuration de vos préférences d’appareil. Patientez un instant, puis réessayez. Si l’erreur persiste, contactez l’aide ou le gestionnaire du campus.',
+        'Une erreur s’est produite lors de la configuration de vos préférences d’appareil. Patientez un instant, puis réessayez. Si l’erreur persiste, contactez l’aide ou le manager du campus.',
     languageSelectionLabel: 'Sélectionner la langue',
     languageSelectionPlaceholder: 'Sélectionnez une langue',
     languageSelectionActionTitle: 'Choix de la langue',
@@ -340,11 +340,11 @@ export const fr = {
         'Une erreur s’est produite lors du transfert de propriété. Veuillez réessayer et, si l’erreur persiste, contacter le responsable.',
     transferOwnerShipDescriptionTitle:
         'En transférant la propriété, vous ne serez plus propriétaire de ce CAMPUS ni, le cas échéant, responsable de sa facturation. Tenez-en compte avant de procéder au transfert !',
-    currentManagersListTitle: 'Liste des gestionnaires actuels',
-    searchManagersPlaceholder: 'Rechercher des gestionnaires',
-    managerDetailsListTitle: 'Détails des gestionnaires',
+    currentManagersListTitle: 'Liste des manager actuels',
+    searchManagersPlaceholder: 'Rechercher des manager',
+    managerDetailsListTitle: 'Détails des manager',
     transferOwnershipWarningTitle1: 'En cliquant sur « Confirmer », vous transférez les droits de propriété à ',
-    transferOwnershipWarningTitle2: ' et vous deviendrez gestionnaire.',
+    transferOwnershipWarningTitle2: ' et vous deviendrez manager.',
     brandIdentityTitle: 'Identité de marque',
     campusDesignTitle: 'Design de CAMPUS',
     visitorEntranceDesignTitle: 'Design de l’entrée visiteurs',
@@ -488,7 +488,7 @@ export const fr = {
     inviteMemberLabel: 'Inviter un membre',
     inviteMemberPlaceholder: 'Adresse e-mail',
     inviteMemberErrorMessage: 'Adresse e-mail non valide',
-    InviteRoleErrorMessage: ' n’est pas valide, veuillez choisir « utilisateur » ou « gestionnaire »',
+    InviteRoleErrorMessage: ' n’est pas valide, veuillez choisir « utilisateur » ou « manager »',
     inviteLanguageErrorMessage: ' n’est pas valide, veuillez choisir l’anglais ou l’allemand',
     inviteMemberDescription1:
         'Il s’agit d’une invitation individuelle. Une fois l’invitation envoyée, la personne en est informée par e-mail et apparaît dans la liste des membres.',
@@ -841,10 +841,10 @@ export const fr = {
     pendingInviteTitle: 'Invitation en attente...',
 
     // Roles
-    userRoleTitle: 'utilisateur',
-    managerRoleTitle: 'gestionnaire',
+    userRoleTitle: 'Utilisateur',
+    managerRoleTitle: 'Manager',
     userRoleTitleInCap: 'Utilisateur',
-    managerRoleTitleInCap: 'Gestionnaire',
+    managerRoleTitleInCap: 'Manager',
     ownerRoleTitle: 'Propriétaire',
     inviteeRoleTitle: 'Invité',
     inactiveInviteeRoleTitle: 'Inactif',
@@ -852,6 +852,7 @@ export const fr = {
     // Language
     englishLanguageTitle: 'English',
     deutschLanguageTitle: 'Deutsch',
+    frenchLanguageTitle: 'Français',
 
     //Alerts
     generalAlertTitle: 'Avertissement',
@@ -1126,7 +1127,7 @@ export const fr = {
     resourceNotFoundDescription: 'Vous avez été automatiquement déconnecté(e)',
     unexpectedErrorOccuredTitle: 'Une erreur inattendue s’est produite',
     unexpectedErrorOccuredDescription:
-        'Vous avez été automatiquement déconnecté(e) en raison d’une erreur inattendue. Veuillez contacter votre gestionnaire de compte ou info@ivicos.eu',
+        'Vous avez été automatiquement déconnecté(e) en raison d’une erreur inattendue. Veuillez contacter votre manager de compte ou info@ivicos.eu',
 
     // loadingStrings
     loadingStringAreas: 'Chargement des zones...',
@@ -1153,7 +1154,7 @@ export const fr = {
     setOrgLogo: 'Définir le logo de votre organisation',
     setOrgColor: 'Définir la couleur de votre organisation',
     SetupAssistantLabelOpenPrimary: 'Complétez le profil de votre entreprise !',
-    SetupAssistantLabelOpenSecondary: 'Quelques étapes restent à effectuer en tant que gestionnaire de CAMPUS avant que votre CAMPUS soit complet !',
+    SetupAssistantLabelOpenSecondary: 'Quelques étapes restent à effectuer en tant que manager de CAMPUS avant que votre CAMPUS soit complet !',
     SetupAssistantLabelCompletedPrimary: 'Configuration terminée !',
     SetupAssistantLabelCompletedSecondary: 'Vous avez terminé la configuration du profil de votre entreprise !',
     completeLabel: 'terminé',
@@ -1167,7 +1168,7 @@ export const fr = {
     // Intro Steps
     areaIntroStep1: 'Bienvenue dans ce tutoriel guidé de votre CAMPUS ! Cliquez simplement sur « Suivant » pour commencer à explorer. ',
     areaIntroStep2:
-        'Vous trouverez ici l’onglet Zones et l’onglet Journal des modifications. Les gestionnaires de CAMPUS disposent en plus des onglets Gérer les accès et Paramètres de CAMPUS.',
+        'Vous trouverez ici l’onglet Zones et l’onglet Journal des modifications. Les manager de CAMPUS disposent en plus des onglets Gérer les accès et Paramètres de CAMPUS.',
     areaIntroStep3: 'Voici une zone. Dans les zones, vous pouvez créer des salles. Un CAMPUS peut comporter plusieurs zones.',
     campusSettingIntroStep1: 'Vous pouvez ici enregistrer votre photo de profil et choisir vos paramètres personnels',
     campusSettingIntroStep2: 'Vous pouvez ici définir le nom, la couleur de marque et le logo de votre CAMPUS.',
