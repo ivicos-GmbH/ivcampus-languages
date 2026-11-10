@@ -351,6 +351,181 @@ const translations: { [key: string]: { [key: string]: any } } = {
             description: 'Etherpad - Echtzeit-Textbearbeitung',
         },
     },
+    fr: {
+        doubleClickHereFirstRoom: '  Double-cliquez ici d’abord',
+        doubleClickHereFirstRoomAttachment: {
+            title: 'Nouveau ici ? Cliquez ci-dessus !',
+            description: 'Visite guidée pour les nouveaux utilisateurs d’ivCAMPUS dès la création de leur bureau virtuel.',
+        },
+        projectRoom: 'Salle de projet',
+        projectRoomAttachment1: {
+            title: 'Guide de démarrage ivCAMPUS',
+            description: 'En savoir plus sur votre nouveau bureau.',
+        },
+        projectRoomAttachment2: {
+            title: 'Objectifs de développement durable',
+            description: 'Supprimez cette salle une fois les objectifs de l’équipe atteints.',
+        },
+        projectRoomAttachment3: {
+            title: 'Document Etherpad',
+            description: 'Fichier Etherpad à partager',
+        },
+        meetingRoomHamburg: ' Salle de réunion Hambourg',
+        meetingRoomHamburgAttachment1: {
+            title: 'Aleph Alpha',
+            description: 'Obtenir le soutien d’un autre collègue',
+        },
+        meetingRoomHamburgAttachment2: {
+            title: 'Document Etherpad',
+            description: 'Fichier Etherpad à partager',
+        },
+        meetingRoomLondon: ' Salle de réunion Londres',
+        meetingRoomLondonAttachment1: {
+            title: 'Exemple : Conceptboard',
+            description: 'Ajoutez ici vos outils de collaboration préférés',
+        },
+        meetingRoomLondonAttachment2: {
+            title: 'Document Etherpad',
+            description: 'Fichier Etherpad à partager',
+        },
+        coffeeAndTeaCorner: ' Coin café',
+        coffeeAndTeaCornerAttachment1: {
+            title: 'Créez ici vos propres liens',
+            description: 'Liez les outils que vous êtes autorisé à utiliser dans votre entreprise.',
+        },
+        coffeeAndTeaCornerAttachment2: {
+            title: 'Histoire du thé',
+            description: 'Exemple de fichiers cloud ou de liens Internet associés aux salles.',
+        },
+        coffeeAndTeaCornerAttachment3: {
+            title: 'Histoire du café',
+            description: 'Exemple de fichiers cloud ou de liens Internet associés aux salles.',
+        },
+        coffeeAndTeaCornerAttachment4: {
+            title: 'Guide de démarrage ivCAMPUS',
+            description: 'En savoir plus sur votre nouveau bureau.',
+        },
+        coffeeAndTeaCornerAttachment5: {
+            title: 'Partagez vos recettes ici',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        lunchBreakRoom: 'Salle de pause déjeuner (AFK)',
+        lunchBreakRoomAttachment1: {
+            title: 'Musique de pause déjeuner - mix spécial Jazz & Bossa Nova',
+            description: 'Musique de pause déjeuner - mix spécial Jazz & Bossa Nova de @HeartfulCafeMusic',
+        },
+        lunchBreakRoomAttachment2: {
+            title: 'AFK',
+            description: 'Que signifie AFK dans le nom de cette salle ?',
+        },
+        lunchBreakRoomAttachment3: {
+            title: 'Science',
+            description: 'Modifiez ce lien et remplacez-le par votre source préférée.',
+        },
+        lunchBreakRoomAttachment4: {
+            title: 'Document Etherpad',
+            description: 'Fichier Etherpad à partager',
+        },
+        visitorsReception: ' Accueil des visiteurs',
+        visitorsReceptionAttachment1: {
+            title: 'Lien vers le site web d’ivicos',
+            description: 'Modifiez ce lien Internet pour apprendre à utiliser cette fonction',
+        },
+        visitorsReceptionAttachment2: {
+            title: 'Livre d’or',
+            description: 'Etherpad - édition de documents en temps réel.',
+        },
+        onlyAudioRoom: 'Salle audio uniquement',
+        onlyAudioRoomAttachment1: {
+            title: 'Podcasts sur le travail hybride',
+            description: 'Lien vers une sélection de podcasts - ce lien a été choisi au hasard.',
+        },
+        onlyAudioRoomAttachment2: {
+            title: 'Document Etherpad',
+            description: 'Fichier Etherpad à partager',
+        },
+        legalBulletinBoard: 'Tableau d’affichage juridique',
+        legalBulletinBoardAttachment1: {
+            title: 'Vue d’ensemble des documents juridiques en anglais',
+            description: 'Lien général vers des documents juridiques déjà traduits en anglais.',
+        },
+        legalBulletinBoardAttachment2: {
+            title: 'Guide de protection de la maternité',
+            description: 'Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        legalBulletinBoardAttachment3: {
+            title: 'Loi sur le temps de travail',
+            description: 'Arbeitszeitgesetz - Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        legalBulletinBoardAttachment4: {
+            title: 'Loi sur la mise en œuvre de mesures de...',
+            description:
+                'Loi sur la mise en œuvre de mesures de sécurité et de santé au travail visant à améliorer la sécurité et la protection de la santé des travailleurs - Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        legalBulletinBoardAttachment5: {
+            title: 'Code civil allemand',
+            description: 'BGB - Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        legalBulletinBoardAttachment6: {
+            title: 'Loi sur les tribunaux du travail',
+            description:
+                'Malheureusement disponible uniquement en allemand. Veuillez utiliser DeepL si nécessaire. - Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        legalBulletinBoardAttachment7: {
+            title: 'Loi générale sur l’égalité de traitement',
+            description: 'Les employeurs sont tenus d’afficher ces informations. Nous nous acquittons ainsi de cette obligation.',
+        },
+        audienceRoom: ' Salle plénière',
+        audienceRoomAttachment1: {
+            title: 'Lisez le mot d’accueil',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        audienceRoomAttachment2: {
+            title: 'Calculateur avancé de travail hybride ivCAMPUS',
+            description: 'Réalisez votre propre calcul d’économies.',
+        },
+        audienceRoomAttachment3: {
+            title: 'Calculateur rapide de travail hybride ivCAMPUS',
+            description: 'Découvrez les possibilités d’économies de coûts.',
+        },
+        audienceRoomAttachment4: {
+            title: 'Guide de démarrage ivCAMPUS',
+            description: 'En savoir plus sur votre nouveau bureau.',
+        },
+        coffeeBreakRoom: 'Pause café',
+        coffeeBreakRoomAttachment1: {
+            title: 'Notez ici vos idées',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        breakOutGroupA: 'Groupe de travail A',
+        breakOutGroupAAttachment1: {
+            title: 'Consignes du groupe A',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        breakOutGroupAAttachment2: {
+            title: 'Duckduckgo',
+            description: 'Commencez vos recherches avec un moteur de recherche',
+        },
+        breakOutGroupB: 'Groupe de travail B',
+        breakOutGroupBAttachment1: {
+            title: 'Consignes du groupe B',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        breakOutGroupBAttachment2: {
+            title: 'Aleph Alpha',
+            description: 'Obtenir le soutien d’un autre collègue',
+        },
+        relaxationAreaWOVideo: 'Espace de détente sans vidéo',
+        relaxationAreaWOVideoAttachment1: {
+            title: 'Notez et partagez vos idées ici',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+        meetAndGreet: 'Rencontres et échanges',
+        meetAndGreetAttachment1: {
+            title: 'Partagez vos idées ensemble ici',
+            description: 'Etherpad - édition de documents en temps réel',
+        },
+    },
 }
 
 // eslint-disable-next-line dot-notation

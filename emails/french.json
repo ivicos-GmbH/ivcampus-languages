@@ -1,0 +1,47 @@
+{
+  "invSubject": "Vous avez reçu une invitation à CAMPUS",
+  "invTitle1": "Vous avez reçu une invitation à Campus de la part de ",
+  "invTitle2": " pour votre adresse e-mail ",
+  "newUserInvOrgName": "Bonjour ! Vous avez reçu une invitation à rejoindre",
+  "newUserInvClick": "Cliquez simplement sur le bouton ci-dessous pour commencer votre aventure dans le travail hybride",
+  "newUserInvStart": "DÉMARRER",
+
+  "registeredUserInvOrgNamePart1": "Bonjour",
+  "registeredUserInvOrgNamePart2": "Vous avez reçu une invitation à rejoindre",
+  "registeredUserInvClick": "Cliquez simplement sur le bouton ci-dessous pour vous connecter et consulter l’invitation",
+
+  "userLoginSubject": "Lien d’accès pour vous connecter",
+  "userLoginTitle": "CONNEXION",
+  "userLoginEmail": "Bonjour ",
+  "userLoginClick": "Pour finaliser la connexion, veuillez cliquer sur le bouton ci-dessous",
+
+  "userSignUpSubject": "Lien d’accès pour vous inscrire",
+  "userSignUpTitle": "INSCRIPTION",
+  "userSignUpCongrats": "Félicitations ! Vous êtes sur le point de vous inscrire à CAMPUS",
+  "userSignUpClick": "Pour finaliser votre inscription, veuillez cliquer sur le bouton ci-dessous,",
+  "TermsOfService1": "En cliquant sur ",
+  "TermsOfService2": "S’INSCRIRE,",
+  "TermsOfService3": " vous acceptez nos ",
+  "TermsOfService4": "conditions d’utilisation",
+  "TermsOfService5": "",
+  "userCopyUrl": "ou copiez et collez cette URL dans un nouvel onglet de votre navigateur",
+
+  "userOnboardSubject": "Guide de prise en main après votre inscription à CAMPUS",
+  "userOnboardTitle": "Bienvenue",
+  "userOnboardEmailPart1": "Merci de votre inscription",
+  "userOnboardEmailPart2": "à",
+  "userOnboardEmailPart3": "CAMPUS",
+  "userOnboardRefer": "Voici sans attendre le lien vers notre",
+  "userOnboardGuide": "guide de démarrage rapide",
+  "userOnboardSteps": "Il vous présente les principales fonctionnalités et vous aide à comprendre les différences essentielles par rapport à d’autres solutions",
+
+  "logIn": "SE CONNECTER",
+  "signUp": "S’INSCRIRE",
+  "contactSupportLogIn": "Si vous rencontrez des difficultés pour vous connecter, veuillez contacter le support",
+  "contactSupportSignUp": "Si vous rencontrez des difficultés pour vous inscrire, veuillez contacter le support",
+  "contactSupportHere": "ici",
+  "privacyPolicyPart1": "Nous respectons votre vie privée et n’utiliserons pas vos données à des fins de marketing par des tiers ni à d’autres fins. Pour plus d’informations, veuillez consulter notre",
+  "privacyPolicyPart2": "politique de confidentialité",
+  "director": "Direction générale",
+  "tax": "N° de TVA"
+}
