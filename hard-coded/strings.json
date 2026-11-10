@@ -403,7 +403,7 @@
     },
     "callToggleTldraw": {
       "en": "Toggle Tldraw",
-      "de": "Zu Tldraw wechseln",
+      "de": "Tldraw umschalten",
       "fr": "Afficher/masquer Tldraw",
       "where": [
         "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:217",
@@ -413,7 +413,7 @@
     },
     "callToggleEtherpad": {
       "en": "Toggle Etherpad",
-      "de": "Zum Etherpad wechseln",
+      "de": "Etherpad umschalten",
       "fr": "Afficher/masquer Etherpad",
       "where": [
         "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:224",
@@ -423,7 +423,7 @@
     },
     "callToggleCollaboard": {
       "en": "Toggle Collaboard",
-      "de": "Zu Collabord wechseln",
+      "de": "Collaboard umschalten",
       "fr": "Afficher/masquer Collaboard",
       "where": [
         "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:231",
@@ -433,7 +433,7 @@
     },
     "callToggleConceptboard": {
       "en": "Toggle Conceptboard",
-      "de": "Zu Conceptboard wechseln",
+      "de": "Conceptboard umschalten",
       "fr": "Afficher/masquer Conceptboard",
       "where": [
         "campus-alpha-client:src/features/Rooms/RoomView/CallActions.tsx:238",
@@ -467,9 +467,9 @@
       ]
     },
     "takeVisitorInside": {
-      "en": "Take your visitor inside your CAMPUS...",
-      "de": "Besucher auf den CAMPUS begleiten",
-      "fr": "Faire entrer votre visiteur sur votre CAMPUS...",
+      "en": "Take your visitor inside...",
+      "de": "Besucher hineinbegleiten...",
+      "fr": "Faire entrer votre visiteur...",
       "where": [
         "campus-alpha-client:src/features/Visitors/VisitorRoomSelector/index.tsx:82"
       ]
@@ -504,8 +504,8 @@
       "note": "Replaces a button label when something fails."
     },
     "userAlreadyExists": {
-      "en": "Member already exists",
-      "de": "Mitglied existiert bereits",
+      "en": "User already exists",
+      "de": "Benutzer existiert bereits",
       "fr": "L'utilisateur existe déjà",
       "where": [
         "campus-alpha-client:src/features/Members/children/Dialogs.tsx:98"
@@ -521,7 +521,7 @@
     },
     "close": {
       "en": "Close",
-      "de": "Schliessen",
+      "de": "Schließen",
       "fr": "Fermer",
       "where": [
         "campus-alpha-client:src/features/Members/children/Dialogs.tsx:308"
@@ -561,7 +561,7 @@
       ]
     },
     "microsoftError": {
-      "en": "Error has ocurred",
+      "en": "Error has occured",
       "de": "Ein Fehler ist aufgetreten",
       "fr": "Une erreur s'est produite",
       "where": [
@@ -583,17 +583,17 @@
       "note": "Default name for a visitor who gives none."
     },
     "loadingLandingPage": {
-      "en": "Loading landing area...",
-      "de": "Startbereich wird geladen...",
-      "fr": "Chargement la zone d'accueil...",
+      "en": "Loading landing page...",
+      "de": "Startseite wird geladen...",
+      "fr": "Chargement de la page d'accueil...",
       "where": [
         "campus-alpha-client:src/routes/LandingPage/LandingPage.tsx:14"
       ]
     },
     "inArea": {
-      "en": "In Area {areaName}",
-      "de": "Im Bereich {areaName}",
-      "fr": "Dans zone {areaName}",
+      "en": "In {areaName}",
+      "de": "In {areaName}",
+      "fr": "Dans {areaName}",
       "where": [
         "campus-alpha-client:src/features/Areas/AreaSwitch/CrossAreaDirectMessaging/DirectMessaging/AreaSegment.tsx:296"
       ],
@@ -617,7 +617,7 @@
     },
     "screenshots": {
       "en": "Screenshots",
-      "de": "Bildschirmfoto",
+      "de": "Bildschirmfotos",
       "fr": "Captures d'écran",
       "where": [
         "campus-alpha-client:src/routes/TestWebRTC/WebRTCDiagnostics.tsx:20"
@@ -625,7 +625,7 @@
     },
     "screenshotNumber": {
       "en": "Screenshot {number}",
-      "de": "Bildschirmfoto",
+      "de": "Bildschirmfoto {number}",
       "fr": "Capture d'écran {number}",
       "where": [
         "campus-alpha-client:src/routes/TestWebRTC/utils/generatePDF.ts:321"
@@ -634,7 +634,7 @@
     },
     "screenshotError": {
       "en": "Error loading screenshot {number}",
-      "de": "Fehler beim Laden des Screenshots {Nummer},
+      "de": "Fehler beim Laden des Screenshots {number}",
       "fr": "Erreur de chargement de la capture d'écran {number}",
       "where": [
         "campus-alpha-client:src/routes/TestWebRTC/utils/generatePDF.ts:337"
@@ -682,34 +682,34 @@
       ]
     },
     "backgroundAegeanSea": {
-      "en": "Lake View",
-      "de": "Seeblick",
-      "fr": "Vue sur le lac",
+      "en": "Aegean Sea",
+      "de": "Ägäisches Meer",
+      "fr": "Mer Égée",
       "where": [
         "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:13"
       ],
       "note": "Name of a dashboard background."
     },
     "backgroundEuropeanSquare": {
-      "en": "Marketplace in Europe",
-      "de": "Marktplatz in Europa",
-      "fr": "Marché européen",
+      "en": "European Square",
+      "de": "Europäischer Platz",
+      "fr": "Place européenne",
       "where": [
         "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:14"
       ],
       "note": "Name of a dashboard background."
     },
     "backgroundTimberTown": {
-      "en": "Old Town",
-      "de": "Altstadt",
-      "fr": "Vieille ville",
+      "en": "Timber Town",
+      "de": "Fachwerkstadt",
+      "fr": "Ville à colombages",
       "where": [
         "campus-alpha-client:src/features/CampusSettings/BrandIdentity/BrandIdentity.tsx:15"
       ],
       "note": "Name of a dashboard background."
     },
     "backgroundRollingHills": {
-      "en": "Gentle Hills",
+      "en": "Rolling Hills",
       "de": "Hügellandschaft",
       "fr": "Collines ondulées",
       "where": [
@@ -1024,9 +1024,9 @@
       ]
     },
     "noRooms": {
-      "en": "No rooms have been created in this area yet",
-      "de": "Noch keine Räume in diesem Bereich erstellt",
-      "fr": "Aucune salle n'a encore été créée dans cette zone",
+      "en": "No rooms available for this area",
+      "de": "Keine Räume für diesen Bereich verfügbar",
+      "fr": "Aucune salle disponible pour cet espace",
       "where": [
         "campus-open-doors-management:components/modals/location-modal.tsx:156"
       ]
@@ -1041,7 +1041,7 @@
     },
     "holidayInvalidIcs": {
       "en": "Invalid file: {fileName} (expected .ics file)",
-      "de": "Ungültige Dateityp: {fileName} (erwartet wird eine .ics-Datei)",
+      "de": "Ungültiger Dateityp: {fileName} (erwartet wird eine .ics-Datei)",
       "fr": "Fichier non valide : {fileName} (fichier .ics attendu)",
       "where": [
         "campus-open-doors-management:hooks/use-holidays.ts:384"
@@ -1049,7 +1049,7 @@
     },
     "holidayParseError": {
       "en": "Error parsing {fileName}: {error}",
-      "de": "Fehler beim der Prüfung von {fileName}: {error}",
+      "de": "Fehler bei der Prüfung von {fileName}: {error}",
       "fr": "Erreur lors de l'analyse de {fileName} : {error}",
       "where": [
         "campus-open-doors-management:hooks/use-holidays.ts:393"
